@@ -1,47 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rohit Singh Chauhan Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Singh Chauhan | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Rohit Singh Chauhan</h1>
-        <p>B.Tech CSE Student</p>
-    </header>
+<nav>
+    <div class="logo">Rohit.dev</div>
 
-    <section>
-        <h2>About Me</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm <span>Rohit Singh Chauhan</span></h1>
+
         <p>
-            I am a Computer Science Engineering student interested in
-            Web Development, Machine Learning and AI Projects.
+            B.Tech CSE Student passionate about
+            AI, Machine Learning, Web Development
+            and Problem Solving.
         </p>
-    </section>
 
-    <section>
-        <h2>Projects</h2>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
 
-        <div class="project-card">
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Computer Science Engineering student
+        who loves building AI and Web Applications.
+        Currently working on Machine Learning and
+        Deep Learning Projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Flask</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Deep Learning</div>
+        <div class="skill">MySQL</div>
+    </div>
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
             <h3>GST Calculator</h3>
 
             <p>
-                A free online GST Calculator that calculates GST amount
-                and final payable amount instantly.
+                Calculates GST amount and final payable amount instantly.
             </p>
 
             <a href="https://gst-calculator-one.vercel.app/" target="_blank">
                 Live Demo
             </a>
 
-            <br><br>
-
             <a href="https://github.com/rohitsinghchauhan88/gst-calculator" target="_blank">
-                GitHub Repository
+                GitHub
             </a>
         </div>
 
-    </section>
+        <div class="card">
+            <h3>Student Performance Prediction</h3>
+
+            <p>
+                Deep Learning model that predicts student academic performance.
+            </p>
+
+            <a href="#">Coming Soon</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: yourmail@gmail.com</p>
+
+    <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Rohit Singh Chauhan</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
